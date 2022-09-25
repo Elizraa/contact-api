@@ -1,0 +1,25 @@
+{
+  "name": "contact-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elizraa/contact-api.git"
+  },
+  "author": "Azriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elizraa/contact-api/issues"
+  },
+  "homepage": "https://github.com/Elizraa/contact-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}

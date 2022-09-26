@@ -4,15 +4,15 @@ exports.up = (pgm) => {
       type: "VARCHAR(50)",
       primaryKey: true,
     },
-    firstName: {
+    first_name: {
       type: "VARCHAR(50)",
       notNull: true,
     },
-    lastName: {
+    last_name: {
       type: "TEXT",
       notNull: true,
     },
-    phoneNumber: { 
+    phone_number: { 
       type: "VARCHAR(15)",
       notNull: true,
       unique: true,
